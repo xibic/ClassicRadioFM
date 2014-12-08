@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  ClassicRadioFM
+//
+//  Created by xibic on 12/8/14.
+//  Copyright (c) 2014 AppiWork. All rights reserved.
+//
+
+#ifndef ClassicRadioFM_PrefixHeader_pch
+#define ClassicRadioFM_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <AVFoundation/AVFoundation.h>
+#import <QuartzCore/CoreAnimation.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <CFNetwork/CFNetwork.h>
+#import <UIKit/UIKit.h>
+
+#import "Constant.h"
+
+#endif
